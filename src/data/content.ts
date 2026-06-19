@@ -64,7 +64,7 @@ export const ventures = [
     id: "linkedin",
     title: "LinkedIn",
     description: "Connect professionally and view my full work history.",
-    href: "https://www.linkedin.com/in/samuel-murguia-752639408",
+    href: "https://linkedin.com",
     image: "/media/contact/linkedin.png",
     cta: "Visit profile",
     external: true,
