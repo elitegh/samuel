@@ -25,7 +25,7 @@ export function Newsletter() {
         <SectionHeading
           eyebrow="Connect"
           title="Get In Touch"
-          description="Reach out for engineering opportunities, collaboration, or technical discussions."
+          description="Reach out for AI/ML opportunities, collaboration, or technical discussions."
           align="center"
         />
 

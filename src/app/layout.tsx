@@ -17,17 +17,20 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: `${site.name} | Software Engineer Portfolio`,
+  title: `${site.name} | Senior AI/ML Engineer`,
   description: site.description,
   keywords: [
     "Samuel Murguia",
-    "software engineer",
-    "cloud platforms",
+    "AI/ML engineer",
+    "MLOps",
+    "deep learning",
+    "production AI",
+    "PyTorch",
+    "Databricks",
     "portfolio",
-    "enterprise systems",
   ],
   openGraph: {
-    title: `${site.name} | Software Engineer Portfolio`,
+    title: `${site.name} | Senior AI/ML Engineer`,
     description: site.description,
     type: "website",
   },
