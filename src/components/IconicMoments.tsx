@@ -12,7 +12,7 @@ export function IconicMoments() {
         <SectionHeading
           eyebrow="Legacy"
           title="Education & Journey"
-          description="Key milestones from Texas Tech to enterprise engineering leadership."
+          description="Key milestones from Texas Tech to generative AI platform engineering."
         />
 
         <div className="space-y-8 md:space-y-12">

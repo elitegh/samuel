@@ -81,12 +81,20 @@ function ExperienceCard({
           {club.years}
         </p>
         <h3 className="font-display text-2xl sm:text-3xl md:text-4xl uppercase text-white tracking-tight">
-          {club.name}
+          {"url" in club && club.url ? (
+            <a
+              href={club.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gold transition-colors"
+            >
+              {club.name}
+            </a>
+          ) : (
+            club.name
+          )}
         </h3>
         <p className="text-sm text-zinc-300 mt-1 text-pretty">{club.role}</p>
-        <p className="text-[11px] sm:text-xs text-zinc-500 uppercase tracking-wider mt-0.5">
-          {club.location}
-        </p>
 
         <ul className="mt-4 space-y-2 sm:space-y-2.5">
           {club.bullets.map((bullet) => (
@@ -114,7 +122,7 @@ export function CareerTimeline() {
         <SectionHeading
           eyebrow="Journey"
           title="Professional Experience"
-          description="Roles across Databricks, SolarWinds, SailPoint, and uShip — hover media to preview."
+          description="Roles across OpenAI, Anthropic, SailPoint, and uShip — hover media to preview."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5 lg:gap-6">

@@ -16,8 +16,8 @@ for pair in \
   "contact/github:https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=900&q=85&fm=jpg" \
   "contact/linkedin:https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=900&q=85&fm=jpg" \
   "contact/phone:https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?w=900&q=85&fm=jpg" \
-  "experience/databricks:https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=900&q=85&fm=jpg" \
-  "experience/solarwinds:https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=900&q=85&fm=jpg" \
+  "experience/openai:https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=900&q=85&fm=jpg" \
+  "experience/anthropic:https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=900&q=85&fm=jpg" \
   "experience/sailpoint:https://images.unsplash.com/photo-1518770660439-4636190af475?w=900&q=85&fm=jpg" \
   "experience/uship:https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=900&q=85&fm=jpg" \
   "journey/degree:https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=900" \
@@ -35,8 +35,8 @@ done
 echo "Downloading videos (Google sample CDN)..."
 BASE="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample"
 curl -fL --retry 3 -o "$MEDIA/hero/hero.mp4" "$BASE/ForBiggerBlazes.mp4" || true
-curl -fL --retry 3 -o "$MEDIA/experience/darabricks.mp4" "$BASE/ForBiggerEscapes.mp4" || true
-curl -fL --retry 3 -o "$MEDIA/experience/solarwinds.mp4" "$BASE/ForBiggerFun.mp4" || true
+curl -fL --retry 3 -o "$MEDIA/experience/openai.mp4" "$BASE/ForBiggerEscapes.mp4" || true
+curl -fL --retry 3 -o "$MEDIA/experience/anthropic.mp4" "$BASE/ForBiggerFun.mp4" || true
 curl -fL --retry 3 -o "$MEDIA/experience/sailpoint.mp4" "$BASE/ForBiggerJoyrides.mp4" || true
 curl -fL --retry 3 -o "$MEDIA/experience/uship.mp4" "$BASE/ForBiggerMeltdowns.mp4" || true
 curl -fL --retry 3 -o "$MEDIA/journey/highlights.mp4" "$BASE/ForBiggerBlazes.mp4" || true
